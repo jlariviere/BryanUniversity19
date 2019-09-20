@@ -1,0 +1,8 @@
+h1 {color: darkgreen }
+h1,h2 {font-family: Georgia, 'Times New Roman', Times, serif}
+.headline {text-align: center}
+ p {line-height: 25px}
+ div #caps {text-transform:uppercase}
+ a {text-decoration: none}
+ a:hover {text-decoration-line: underline}
+ img {float: left;}
