@@ -1,0 +1,44 @@
+<!Doctype html>
+<html>
+    <head> 
+    <title> Travel </title>
+    </head>
+    <body>
+        <div1>
+             <h1> Pictures </h1>
+             <img src="  https://www.shutterbug.com/images/17/1cb10317.png " size width="300" height="200"/> 
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_CNoAzsY4OEx0bJv0YFDrjW4rnU3pqJ4WVOkqxeaLP6AEV7FA"size width="300" height="200">
+             <img src="https://anakjajan.files.wordpress.com/2018/03/dscf2670.jpg?w=672&h=372&crop=1" size width="300" height="200"/>
+            </div1>
+        <div2>
+             <h2> Links  </h2>
+             <a href=" www.google.com " > Just Google it.  </a>
+             <a href=" www.trivago.com " >  Find a place </a>
+             <a href=" www.onetravel.com  " >  Find a flight </a>
+             </div2>
+        <div3>
+            <h3> Go somewhere!  </h3>
+            <p> Exploring somewhere knew is an amazing feeling.   </p>
+            </div3>
+        <div4> 
+            <h4>   Span </h4>
+            <span>   Discover the world and youself.  </span>
+            </div4>
+        <div5>
+            <h5> Places to see </h5> </div5> 
+           <ol>
+                <li> Mountains  </li>
+                <li> Egypt  </li>
+                <li>  Japan </li>
+                </ol>
+                </div5>
+        <div6>
+            <h6> Things to do  </h6>
+            <ul>
+                <li> Hicking  </li>
+                <li> Museum  </li>
+                <li> Try new foods  </li>
+                </ul>
+                </div6>
+                </body>
+</html>
