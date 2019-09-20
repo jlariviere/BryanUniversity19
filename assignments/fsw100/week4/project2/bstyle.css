@@ -1,0 +1,42 @@
+body{background-color: aquamarine;} 
+header>h1 { font-family: 'Great Vibes', cursive; 
+font-size: 85px;
+text-align: center;}
+h2 {font-family:'Great Vibes', cursive;
+font-size: 45px; 
+text-align: center;}
+.beam {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+nav{background-blend-mode: color-burn;}
+nav > a {padding-left: 25px;
+text-decoration: none;}
+p {font-family: 'Special Elite', cursive;
+text-align: center;
+font-size: 25px;}
+table, th, td, tr {border: 3px solid black; }
+table {float: right;
+display: block;}
+ul {font-family: 'Special Elite', cursive;
+font-size: 30px; 
+;}
+li {font-family: 'Special Elite', cursive;
+}
+.mcoco> img {display: block;
+    margin-left: auto;
+    margin-right: auto;
+width: 300px;}
+.lemon>img {display: block;
+    margin-left: auto;
+    margin-right: auto;
+width: 300px;}
+.snick>img {display: block;
+    margin-left: auto;
+    margin-right: auto;
+width: 300px;}
+.snick {margin-top: 150px;}
+
+footer {font-size: 20px;
+text-align: right;}
