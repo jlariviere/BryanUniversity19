@@ -1,0 +1,84 @@
+* {box-sizing: border-box
+    font-size 0px; }
+
+    #lightpink {background-color: #F5C6D6;
+        height: 20vh;
+        border: 8px solid white;}
+    
+    #pink1 {background-color: #EE2E84; 
+        height: 20vh; border-color: solid white;
+        border: 8px solid white;}
+    #pink2 {background-color: #EE2E84; 
+            height: 20vh; border-color: solid white;
+            border: 8px solid white;}
+ #pink3 {background-color: #EE2E84; 
+                height: 20vh; border-color: solid white;
+                border: 8px solid white;}
+ #pink4 {background-color: #EE2E84; 
+                    height: 20vh; border-color: solid white;
+                    border: 8px solid white;}
+    
+    #lightblue1 {background-color: #85CFD8;
+        border: 8px solid white;
+        height: 20vh;}
+        #lightblue2 {background-color: #85CFD8;
+            border: 8px solid white;
+            height: 20vh;}
+    #green {background-color: #8DC63F;
+        border: 8px solid white;
+        height: 20vh;}
+
+    #orange {background-color:#E76E34;
+        border: 8px solid white;
+        height: 20vh;}
+@media (min-width: 768px){
+    .grid {display: grid;
+        grid-template-columns: auto;}
+    #lightpink{background-color: #F5C6D6;
+        height: 20vh;
+        border: 8px solid white;
+        grid-column-start: 1;
+        grid-column-end: 5;}
+    #pink1 {background-color: #EE2E84; 
+        height: 20vh; border-color: solid white;
+        border: 8px solid white;
+        grid-column-start:  1;
+        grid-column-end: 2;}
+    #pink2 {background-color: #EE2E84; 
+        height: 20vh; border-color: solid white;
+        border: 8px solid white;
+        grid-column-start: 2;
+        grid-column-end: 3;}
+    #pink3 {background-color: #EE2E84;          height: 20vh; border-color: solid white;
+        border: 8px solid white;
+        grid-column-start: 3;
+        grid-column-end: 4;}
+    #pink4 {background-color: #EE2E84; 
+        height: 20vh; border-color: solid white;
+        border: 8px solid white;
+        grid-column-start: 4;
+        grid-column-end: 5;}
+    #lightblue1 {background-color: #85CFD8;
+        border: 8px solid white;
+        height: 20vh;
+        grid-column-start: 1;
+        grid-column-end: 3;}
+     #lightblue2 {background-color: #85CFD8;
+        border: 8px solid white;
+        height: 20vh;
+        grid-column-start: 3;
+        grid-column-end: 5;}
+    #green {background-color: #8DC63F;
+        border: 8px solid white;
+        height: 20vh;
+        grid-column-start: 1;
+        grid-column-end: 4;}
+    #orange {background-color:#E76E34;
+        border: 8px solid white;
+        height: 20vh;
+        grid-column-start: 4;
+        grid-column-end: 5;}
+    
+
+    }
+
