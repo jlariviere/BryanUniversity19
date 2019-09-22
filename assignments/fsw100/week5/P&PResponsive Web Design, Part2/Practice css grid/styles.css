@@ -1,0 +1,69 @@
+* {box-sizing: border-box
+    font-size 0px; }
+
+.grid1 {display: grid;
+    grid-template-columns: auto;
+    border:25px solid white;
+    padding-bottom: 100px;}
+#red {background-color: red;
+    height: 10vh;
+    border: 5px solid white;
+    border-radius: 15px;
+    grid-column: 1/3;}
+#blue {background-color: #EE2E84; 
+    height: 10vh; 
+    border: 5px solid white;
+    border-radius: 15px;
+    grid-column: 3/5}
+#green {background-color: green; 
+    height: 10vh; 
+    border: 5px solid white;
+    border-radius: 15px;
+    grid-column: 1;}
+#pink {background-color: #EE2E84; 
+    height: 10vh; 
+    border: 5px solid white;
+    border-radius: 15px;
+    grid-column: 2/5}
+#gold {background-color: gold; 
+    height: 10vh; ;
+    border: 5px solid white;
+    border-radius: 15px;
+    grid-column: 1/5;}
+.grid2 { display: grid;
+    grid-template-columns: auto;
+    
+    border: 25px solid white;
+    padding-left: 30px;
+    padding-right: 30px;}
+#black {background-color: black;
+    height: 20vh;
+    border-radius: 15px;
+    border: 5px solid white;
+    grid-column: 1/5;}
+#olive{background-color: olive;
+    height: 42vh;
+    border-radius: 15px;
+    border: 5px solid white;
+    grid-column: 1/3;
+    grid-row: 2/4;}
+#maroon{background-color: maroon;
+    height: 20vh;
+    border-radius: 15px;
+    border: 5px solid white;
+    grid-column: 3/5;}
+#teal1{background-color: teal;
+    height: 20vh;
+    border-radius: 15px;
+    border: 5px solid white;
+    grid-column: 3/4;}
+#teal2{background-color: teal;
+    height: 20vh;
+    border-radius: 15px;
+    border: 5px solid white;
+    grid-column: 4/5;}
+
+
+
+
+
