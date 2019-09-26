@@ -1,0 +1,50 @@
+* {box-sizing: border-box
+    font-size 0px; }
+body {display: grid;}
+
+#box1 { background-color: cornflowerblue;
+        height: 200px;
+        width: 200px;}
+#box2 {background-color: cyan;
+        height: 200px;
+        width: 200px;}
+#box3 { background-color: chartreuse;
+        height: 200px;
+        width: 200px;}
+#box4 {background-color: coral;
+        height: 200px;
+        width: 200px;}
+#box5 { background-color: fuchsia;
+        height: 200px;
+        width: 200px;}
+#box6 {background-color: crimson;
+        height: 200px;
+        width: 200px;}
+        
+
+#box1:hover {background-color: darkmagenta;
+        height:300px;
+        width: 300px; 
+        transition-duration: 1s;
+transition-delay: 500ms;}
+#box2:hover {background-color: hotpink;
+        width: 400px;
+        transition-duration: 3s;
+        border-radius: 20px; }
+#box3:hover {background-color: gold;
+        height: 200px;
+        width: 500px;
+        box-shadow: aqua 5px 10px;
+        transition-duration: 1.5s;}
+#box4:hover {background-color: firebrick;
+        height: 400px;
+        transition-duration: 1s;}
+
+#box5:hover {background-color: black;
+         width: 600px;
+        transition-duration: 3s;}
+#box6:hover {background-color: aqua;
+        height: 10px;
+        width: 10px;
+        transition-delay: 5ms;
+        transition-duration: 5s;}
