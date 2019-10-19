@@ -4,20 +4,6 @@
     .home {background-color: aquamarine;}
     .cater {background-image: url(https://images.unsplash.com/photo-1497050284693-c7c48a96240a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80)} 
     .aboutmain {display: flexbox;}
-    body {margin: 0px;} 
-    H1 {font-family: 'Great Vibes', cursive;
-        font-size: 85px;
-        text-align: center;
-        margin-top: 10px;
-        padding-top: 10px;}
-    h2 {font-family:'Great Vibes', cursive;
-        font-size: 45px; 
-        text-align: center;}
-    .beam {display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        border-radius: 30px;}
     .nav {list-style-type: none;
         margin: 0;
         padding: 0;
@@ -35,6 +21,21 @@
         color: white;}
     li :hover  {background-color: #555;
         color: white;}
+    body {margin: 0px;} 
+    H1 {font-family: 'Great Vibes', cursive;
+        font-size: 85px;
+        text-align: center;
+        margin-top: 10px;
+        padding-top: 10px;}
+    h2 {font-family:'Great Vibes', cursive;
+        font-size: 45px; 
+        text-align: center;}
+    .beam {display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        border-radius: 30px;}
+    
     p {font-family: 'Special Elite', cursive;
         text-align: center;
         font-size: 25px;}
