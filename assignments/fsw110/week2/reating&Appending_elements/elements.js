@@ -4,6 +4,7 @@ var welcome = document.createElement('h1')
 var word = document.createElement('p')
     word.textContent = 'All of this was created with Javascript'
     document.body.append(word)
+    
 var list = document.createElement('ol')
 var lione=document.createElement('li')
     lione.textContent= 'create elements'
@@ -13,3 +14,4 @@ var lithree=document.createElement('li')
     lithree.textContent= 'append elements'
 list.append(lione,litwo,lithree)
 document.body.append (list)
+  
