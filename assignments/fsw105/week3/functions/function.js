@@ -1,24 +1,29 @@
 function sum (num1,num2) {
     return num1 + num2
 }
+console.log (sum(2,4))
 
 function largest (num1,num2,num3) {
     return Math.max(num1,num2,num3)
 }
+console.log(largest(1,3,7))
+
 function even_odd (num) {
     if (num %2==0){
-    return "even" 
+    return ( "even" )
     }
-    else {return "odd"}
+    else { return ( "odd" )}
 }
-function length (string) {
-    if (string.length<=20){
-        return string.concat(string);
-    }
-    else {
-        return string.slice(0,string.length/2)
-    } 
-} 
+console.log(even_odd(4))
+
+function length (string) {      
+if (string.length<=20){
+ return ( string.concat(string))
+}
+    else {return  ( string.slice(0,string.length/2))} 
+}
+console.log (length("adventurous"))
+
 //extra credit attempt?
 function fib(n) {
     if (n < 2){

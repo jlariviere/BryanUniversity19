@@ -42,7 +42,7 @@ for (var i=0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
         console.log (peopleWhoWantToSeeMadMaxFuryRoad[i].name +" is old enough to see Mad Max")
     else console.log (peopleWhoWantToSeeMadMaxFuryRoad[i].name +" is not old enough to see Mad Max")
   }   
-// more personalized somthings wron with the &&
+// more personalized
 
 for (var i=0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
     if (peopleWhoWantToSeeMadMaxFuryRoad[i] .age >=18 && peopleWhoWantToSeeMadMaxFuryRoad[i].gender === "male")
