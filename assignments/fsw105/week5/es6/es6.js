@@ -1,4 +1,4 @@
-// 1x
+// 1
 let name="John"
 let age=101
 
