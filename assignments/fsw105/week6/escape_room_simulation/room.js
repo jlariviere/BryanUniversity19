@@ -13,7 +13,7 @@ answer=()=>{
     
      if (escapeRoom === "key")
    
-         if (randomNum ===  4||5||6)
+         if (randomNum ===  4)
         return haveKey=true,
          console.log("You found a key")
         
