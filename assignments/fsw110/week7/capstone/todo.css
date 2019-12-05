@@ -1,4 +1,8 @@
-body {background-color: darkgrey;}
+body {background-color: darkgrey; font-size: 25px;}
 h3{font-size: 75px; color: darkmagenta;}
 h2{font-size: 45px; color: darkred;}
-
+li{font-size: 25px;}
+#item{font-size:20px;background-color: goldenrod;}
+#description{font-size:20px;background-color: goldenrod;}
+#addTaskButton{font-size: 20px;}
+button{font-size: 20px; background-color:grey ;}

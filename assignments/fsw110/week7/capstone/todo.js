@@ -4,7 +4,7 @@ const descriptionInput = document.getElementById("description")
 const incompleteTasks = document.getElementById("toDo");
 const addTaskButton = document.getElementById("addTaskButton")
 addTask = () => {
-    let text = itemInput.value + ":  " + descriptionInput.value
+    let text = itemInput.value + ":  " + descriptionInput.value + " "
     let li = document.createElement("li")
     let button = document.createElement("button")
     incompleteTasks.appendChild(li);
