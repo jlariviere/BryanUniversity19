@@ -48,7 +48,29 @@ const inventory = [
                 self.processAttack();
          
               
-                while(self.enemyIsActive === false && self.enemyCount <= enemies.length) {
+                // while(self.enemyIsActive === false && self.enemyCount <= enemies.length) {
+                //     console.log("==============================================");
+				// 	key = readline.keyIn("Press W to walk, or P to show inventory: ",{limit: "w,p"});
+				// 	if (key ==="p")console.log(inventory)
+				// 	else if (key === "w")
+                //     generateRandomEnemy();
+                //     console.log("Walking......");
+                //     console.log("Holy smokes, A " + enemy + " has appeared");
+                //     self.restoreEnemy();
+                //     self.processAttack();
+                // }
+				this.userAction()
+				break;
+			case "a":
+				 self.enemyHp -= userAttackPower
+					 
+				console.log("You just attacked " + enemy + " for " + userAttackPower + " attack power");
+				
+				 //this.enemyAction();
+				// this.processAttack();
+				// this.userAction();
+				
+				  while(self.enemyIsActive === false && self.enemyCount <= enemies.length) {
                     console.log("==============================================");
 					key = readline.keyIn("Press W to walk, or P to show inventory: ",{limit: "w,p"});
 					if (key ==="p")console.log(inventory)
@@ -59,17 +81,6 @@ const inventory = [
                     self.restoreEnemy();
                     self.processAttack();
                 }
-				this.userAction()
-				break;
-			case "a":
-				 if (self.enemyHp -= userAttackPower){
-					 
-				console.log("You just attacked " + enemy + " for " + userAttackPower + " attack power");
-				
-				this.enemyAction();
-				this.processAttack();
-				this.userAction();
-				 }
 				 break;
 				
 				
