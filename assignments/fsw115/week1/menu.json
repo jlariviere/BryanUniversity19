@@ -1,0 +1,62 @@
+{
+    "appetizers":{
+        "fried pickles":{
+            "name": "Fried Pickles",
+            "ingredients":["pickles","secret batter"],
+            "description":"Fried pickle slices."
+        },
+        "crudite":{
+            "name": "Crudite",
+            "ingredients":["carrots","bell pepper","broccoli","asparagus"],
+            "description":"Sliced vegetable sticks."
+        }
+    },
+    "coldSandwiches":{
+        "peanutbutterAndJelly":{
+            "name": "PB & J",
+            "ingredients":["peanutbutter","jelly","bread"],
+            "description":"Classic peanutbutter and jelly on toasted house made bread."
+        },
+        "turkey":{
+            "name": "Not Turkey, turkey",
+            "ingredients":["fo-turkey","baby spinach","mayo","pepperjack cheese","bread"],
+            "description":"All flavor, no dead bird."
+        }
+    },
+    "hotSanwiches":{
+        "bmm":{
+            "name": "Beyond Meatball Marinara",
+            "ingredients":["beyond meatballs","marinara","cheese","bread"],
+            "description":"Super sausey sub."
+        },
+        "philly":{
+            "name": "Philly",
+            "ingredients":["steak seasoned meat substitute","onions","bell pepper","cheese","bread"],
+            "description":"OK PHILLY!!!"
+        }
+    },
+    "desserts":{
+        "cookies":{
+            "name": "Cookie",
+            "ingredients":["cookie stuff?","chocolate cips"],
+            "description":"Fresh baked cookies."
+        },
+        "pie":{
+            "name": "Pumpkin Pie",
+            "ingredients":["grahm cracker","butter","sugar","pumpkin","heavy cream"],
+            "description":"A slice of pie with whipped cream."
+        }
+    },
+    "drinks":{
+        "tea":{
+            "name": "Sweet Tea",
+            "ingredients":["tea","sugar","water"],
+            "description":"Its a southern thing."
+        },
+        "laCroix":{
+            "name": "La Croix",
+            "ingredients":["Carbonated water"],
+            "description":"Sparkling water."
+        }
+    }
+}
