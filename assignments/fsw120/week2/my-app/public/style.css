@@ -1,0 +1,14 @@
+* {box-sizing: border-box
+    font-size 0px; }
+.container{margin: 50px;
+    display: flex;
+    flex-wrap: wrap;}
+
+h1{text-align: center;}
+h3{text-align: right;}
+ .box{display: grid;
+    border:10px solid black;
+    width: 200px;
+    height: 100 px;
+    color: white;
+ }
