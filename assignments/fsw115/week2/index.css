@@ -1,0 +1,8 @@
+li{display: block;
+    font-weight: 600;
+    font-size: 50px;
+    color: yellow;
+    background-color:black;
+    text-align: center;
+}
+body{background-color: black;}
