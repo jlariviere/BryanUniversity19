@@ -11,7 +11,7 @@ class App extends React.Component {
     }
     this.smallTime = this.smallTime.bind(this)
    }
-   smallTime(){ this.setState({colors: black}) } 
+  smallTime(){ this.setState({colors: ["black","white","black","white"]}) } 
 
   render(){
    
@@ -25,9 +25,9 @@ return(
       <div id="two"></div>
       <div id="three"></div>
       <div id="four"></div> */}
-       <button onClick = {smallTime} >Small Time</button>
-       <button onClick = {party} >Party</button>
-       <button onClick = {pro}>Professional</button>
+       <button onClick = {this.smallTime} >Small Time</button>
+       <button onClick = {this.party} >Party</button>
+       <button onClick = {this.pro}>Professional</button>
        <br/>
        <button onClick = {this.state} >Big Time 1</button>
        <button >Big Time 2</button>
