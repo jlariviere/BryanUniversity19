@@ -1,0 +1,40 @@
+
+.body {display: flexbox;
+background-color: rgb(88, 82, 82);}
+body{background-color: rgb(235, 231, 0);}
+.nav {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: transparent;
+    position: relative;
+    height: auto;} 
+li >a {display:inline-block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: 700;
+    float: none;}
+.active{background-color: firebrick;
+    color: white;}
+li :hover  {background-color: #555;
+    color: white;}
+header{display: flex;
+justify-content: center;}
+#loadOne{height: 60px;
+width: 100px;
+background-color: rgb(33, 219, 42);
+border-radius: 10px;
+font-weight: 700;}
+#loadTwo{height: 60px;
+    width: 100px;
+    background-color: rgb(33, 219, 42);
+    border-radius: 10px;
+    font-weight: 700;}
+
+.places{color: hotpink;
+text-align: center;}
+.mon{display:inline-block;
+padding: 10px;
+font-family: 'Courier New', Courier, monospace;
+font-style: italic;}
