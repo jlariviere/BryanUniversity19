@@ -1,13 +1,47 @@
-// alright im done with this
+
 import React from "react"
 import "./App.css"
 import Square from "./square"
+
+
+
+// class App extends React.Component{
+//   constructor(){
+//     super()
+//     this.state={
+//       colors:""
+//     }
+
+//   }
+//   render(){
+  
+//     return(
+//   <div>
+//           <Square color={this.state.colors[0]}/>
+//           <Square color={this.state.colors[1]}/>
+//           <Square color={this.state.colors[2]}/>
+//           <Square color={this.state.colors[3]}/>
+//     </div>
+//     )
+//   }
+// }
+// export default App
+
+
+
+
+
+
+
+
+
+
 
 class App extends React.Component {
   constructor(){
     super()
     this.state={
-    colors :  ["white", "white", "white", "white"]
+    colors :  ["white", "black", "white", "white"]
     }
     this.smallTime = this.smallTime.bind(this)
    }
@@ -16,15 +50,18 @@ class App extends React.Component {
   render(){
    
 return(
+  <div>
     <div class="grid1">
-      <Square color ={this.state.colors[0]}/>
-      <Square color ={this.state.colors[1]}/>
+      <Square color ={this.state.colors}/>
+      {/* <Square color ={this.state.colors[1]}/>
       <Square color ={this.state.colors[2]}/>
-      <Square color= {this.state.colors[3]}/>
+      <Square color= {this.state.colors[3]}/> */}
       {/* <div id="one"></div>
       <div id="two"></div>
       <div id="three"></div>
       <div id="four"></div> */}
+      
+      <div class= "buttons">
        <button onClick = {this.smallTime} >Small Time</button>
        <button onClick = {this.party} >Party</button>
        <button onClick = {this.pro}>Professional</button>
@@ -33,6 +70,8 @@ return(
        <button >Big Time 2</button>
        <button >Big Time 3</button>
        <button >Big Time 4</button>
+       </div>
+    </div>
     </div>
     )
   }
