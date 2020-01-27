@@ -1,12 +1,26 @@
  //show 
  axios.get("https://api.vschool.io/[james_lar]/todo")
 .then(response => {
+    console.log(response)
     for(let i = 0; i < response.data.length; i++){
+        const box=document.createElement("input")
         const h1 = document.createElement('h1')
+        const h2 = document.createElement("h2")
+        const h3 = document.createElement('h3')
+        const h4 = document.createElement("h4")
         const entries = Object.entries(response.data[i])
-        h1.textContent = entries
-       // h1.textContent = response.data[i].title
+       // h1.textContent = entries
+       
+        h1.textContent = response.data[i].title
         document.body.appendChild(h1)
+        h2.textContent = response.data[i].description
+        document.body.appendChild(h2)
+        h3.textContent =`$ ${ response.data[i].price}`
+        document.body.appendChild(h3)
+        h4.textContent = `Id: ${response.data[i]._id}`
+        document.body.appendChild(h4) 
+        box.type="checkbox"
+        document.body.appendChild(box)
     }
 })
 
@@ -17,6 +31,7 @@ todoForm.addEventListener("submit", function(event){
     let inputTodo = {
         title: todoForm.title.value,
         description: todoForm.description.value,
+        price: todoForm.price.value,
         imgUrl: todoForm.imgUrl.value
     }
     axios.post("https://api.vschool.io/[james_lar]/todo", inputTodo)
@@ -42,6 +57,7 @@ update.addEventListener("click", function(){
     let inputTodo = {
         title: todoForm.title.value,
         description: todoForm.description.value,
+        price: todoForm.price.value,
         imgUrl: todoForm.imgUrl.value}
     axios.put(`https://api.vschool.io/[james_lar]/todo/${todoId}`,inputTodo)
 })
