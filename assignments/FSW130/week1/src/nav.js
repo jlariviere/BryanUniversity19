@@ -1,5 +1,5 @@
 import React from "react"
-import ThemeProvider from "./ThemeProvider"
+import ThemeProvider from "../ThemeProvider"
 
 function Nav() {    
     return (
